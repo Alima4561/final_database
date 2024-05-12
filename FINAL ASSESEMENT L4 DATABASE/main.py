@@ -5,7 +5,7 @@ from datetime import datetime
 connection = db.connect("h2.db")
 cursor = connection.cursor()
 
-#this will delete a table if it alreayd exists in the database #
+#this will delete a table if it already exists in the database #
 cursor.execute("""
 DROP TABLE IF EXISTS Customers
 """)
